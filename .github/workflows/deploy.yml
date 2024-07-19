@@ -22,7 +22,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Docker/dockerfile.user
+          file: ./Docker/Dockerfile.user
           push: true
           tags: jayahari/docker-ptm-learn:latest # Replace with your Docker Hub username and repository
 
